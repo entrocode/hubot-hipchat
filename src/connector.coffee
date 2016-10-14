@@ -505,7 +505,6 @@ onOffline = ->
 
 onClose = ->
   @logger.info 'Connection was closed'
-  @disconnect()
 
 usersFromStanza = (stanza) ->
   # Parse response into objects
